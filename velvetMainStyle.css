@@ -1,0 +1,163 @@
+* {
+	box-sizing:
+		border-box;
+}
+
+/*audio {
+	display: none;
+}*/
+
+body {
+	font-family: Calibri;
+	background-color: rgb(14, 12, 86);
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 5% 2% 2% auto;
+	grid-template-areas: 
+		'mainhead'
+		'navbar'
+		'textsearch'
+		'mainbody'
+		;
+	justify-content: center;
+}
+
+#mainhead { 
+	grid-area: mainhead;
+	background-image: url("headerbackground4Velvet.svg");
+	/*background-color: rgb(83, 139, 242);*/
+	color: #fffe3f;
+	font-size: 70px;
+	margin-top: 1%;
+	margin-bottom:1%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-left:2%;
+	text-align: left;
+}
+#mainhead a {
+	text-decoration:none;
+	color: #fffe3f;
+	background-color: rgb(14, 12, 86);
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.navbar {
+	grid-area: navbar;
+	background-color: rgb(14, 12, 86);
+}
+.navbar a {
+	padding: 1% 5% 1% 5%;
+	color: white;
+	font-size: 2vw;
+	text-decoration: none;
+	display: flex;
+	justify-content: flex-end;
+	display: inline-block;
+}
+.navbar a:hover {
+	background-color: rgb(14, 81, 126);
+}
+
+.mainbody {
+	grid-area: mainbody;
+	display: grid;
+	color: white;
+	grid-template-columns: 100% /*70% 30%*/;
+	grid-template-rows: auto;
+	grid-template-areas:
+		'maintexts' /*sidebar*/;
+	
+}
+
+
+
+
+.maintexts {
+	padding-left: 2%;
+	background-color: rgb(14, 12, 86);
+	color: white;
+}
+.maintextsleft {
+	background-color: rgb(14, 12, 86);
+}
+.maintextsright {
+	background-color: rgb(14, 12, 86);
+}
+
+.maintextsmiddle {
+	display: block;
+	padding-bottom: 200%;
+	background-color: rgb(14, 12, 86);
+}
+
+.maintextsmiddle a {
+	text-decoration: none;
+	color: white;
+}
+.maintextsmiddle a:hover {
+	background-color: rgb(14, 81, 126);
+}
+.maintexts a {
+	display: block;
+}
+.maintexts h3 {
+	display: block;
+}
+.maintextsright img {
+	width: 16vw;
+	height: 16vw;
+
+}
+
+#search input {
+	grid-area: textsearch;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border-radius: 20px;
+	width: 100%;
+}
+#search input[type=text] {
+	padding-left: 10px;
+	font-size: 100%;
+}
+
+#sidebar {
+	grid-area: sidebar;
+	background-color: rgb(14, 12, 86);
+	width: 100%;
+	height: auto;
+}
+
+#mascot {
+	display: block;
+	width:85%;
+	margin-top: 5%;
+	margin-left: 8%;
+}
+
+.links h2 {
+	color: white;
+}
+
+.links a {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	font-size: 15pt;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 4%;
+}
+.links a:hover {
+	background-color: rgb(14, 81, 126);
+}
+.links h2 {
+	padding-bottom: 4%;
+	padding-left: 4%;
+}
+

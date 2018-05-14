@@ -1,0 +1,116 @@
+@media only screen and (min-width: 601px) {	
+	.maintexts {
+	display: grid;
+	grid-template-columns:
+		15% 60% 40%;
+	grid-template-rows: auto;
+	grid-template-areas:
+		'maintextsleft maintextsmiddle maintextsright';
+	padding-left: 2%;
+	background-color: white;
+	}
+	.maintextsleft{
+		grid-area: maintextsleft;
+		font-size: 1vw;
+		white-space: nowrap;
+	}
+	.maintextsleft h1 {
+		padding-bottom: 310%;
+	}
+	.maintextsmiddle {
+		grid-area: maintextsmiddle;
+		float: left;
+		font-size: 2vw;
+		padding-bottom: 1%;
+	}
+	.maintextsmiddle p {
+		padding-bottom: 20%;
+	}
+	.maintexts a {
+		display: block;
+	}
+	.maintexts h3 {
+		font-size: 2vw;	
+		display: block;
+	}
+	.maintextsright {
+		grid-area: maintextsright;
+	}
+		.dropdown {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#mainhead a{
+		font-size: 43pt;
+	}
+
+	.navbar a {
+		display: flex;
+		flex-flow: column nowrap;
+		font-size: 20px;
+		padding: 1% 7% 1% 7%;
+	}
+	#search input {
+		margin-top: 2px;
+		border-radius: 20px;
+		align-content: center;
+		height: 35px;
+	}
+	.maintexts {
+		float: left;	
+	}
+	.maintexts h1 {
+		font-size: 20pt;
+	}
+	.maintexts p, h2, h4 {
+		font-size: 15pt;
+		display: block;
+	}
+	.maintexts img {
+		display: block;
+		width: 70%;
+		height: 70%;
+	}
+	#sidebar {
+		display: block;
+		width: 100%;
+	}
+	.links a {
+		font-size: 13px;
+		padding-top: 6%;
+		padding-bottom: 6%;
+	}
+	#mascot {
+		width: 90%;
+	}
+	
+	
+}
+
+/*@media only screen and (max-width: 600px) {
+	.dropbutton {
+		background-color: black;
+		color: white;
+	}
+	.mainhead {
+		position: relative;
+		display: inline-block;
+	}
+	.navbar {
+		display: none;
+		position: absolute;
+		background-color: red;
+		min-width: 50%;
+		z-index: 1;
+	}
+	.navbar a {
+		color: yellow;
+		text-decoration: none;
+		display: block;
+	}
+	.mainhead:hover .navbar {
+		display: block;
+	}
+}*/
