@@ -27,7 +27,7 @@
 		</h1>
 		
 		<div class="navbar">	
-			<a href="home.html">Home</a>
+			<a href="index.html">Home</a>
 			<a href="https://www.reddit.com/">News</a>
 			<a href="https://ca.answers.yahoo.com/">S.T.E.M.</a>
 			<a href="about.html">About</a>
@@ -58,9 +58,19 @@
 				</div>
 				
 				<div class="maintextsright">
-					<img id="pic" src="clawbot.jpg">
-					<h3>Comments</h3>
-					<textarea rows="4" cols="24">Enter text here...</textarea>
+					<img id="pic" src="images/robo snoiper.gif">
+					<form action="comments.php" method="get" target="_self">
+						<fieldset>
+							<legend>Comments</legend>
+							
+							<label for="comments">Maximum characters: 200</label>
+							<br>
+							<input type="text" id="comments" name="inputComment" maxlength="200">
+							
+							<input type="submit" value="Submit">
+						</fieldset>
+					</form>
+				
 				</div>
 				
 				<div id="sidebar">		
@@ -72,7 +82,7 @@
 						<a href="#">SCP Foundation</a>
 					</div>
 					<div>
-						<a href="https://youtu.be/dQw4w9WgXcQ"><img id="mascot" src="stem mascot.svg"></a>
+						<a href="https://youtu.be/dQw4w9WgXcQ"><img id="mascot" src="images/stem mascot.svg"></a>
 					</div>
 				</div>	
 				

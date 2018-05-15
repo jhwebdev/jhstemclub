@@ -1,13 +1,9 @@
-address: jhstemclub
-
+url: jhstemclub
 
 TO DO:
--fix weird white column in velvet style (something with grids)
-	-column got wider:(
 -add picture gallery (modals?)
-	-array for images
--adjust style and music buttons
--fix embedded minigame
+	-array for images(?)
+-php form submissions
 
 27-02-18 "home" is the latest iteration.
 
@@ -35,3 +31,16 @@ TO DO:
 	 -tweaked 'STEM' title colour
 	 -embedded minigame
 	 -image folder
+08-05-18 -fixed weird white side bar
+	  -fixed padding on maintexts
+	 -moved image files
+	 -added gifs
+	 -styled buttons
+09-05-18 -added new gifs
+	 -changed comment box to form input
+	 -fixed some styling in minigame
+	 -adding image gallery(using example code)
+	 -modified image page's maintext divs
+11-05-18 -fixed postitioning of gallery elements in images
+	 -fixed displaying of image
+	 - (in both styles)

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fffe3f;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M0,10V9H40v1H0Z"/>
+  <path class="cls-1" d="M39,5h1v9H39V5Z"/>
+  <path class="cls-1" d="M40,6V5H60V6H40Z"/>
+  <path class="cls-1" d="M40,14V13H80v1H40Z"/>
+  <path class="cls-1" d="M60,5H59V0h1V5Z"/>
+  <path class="cls-1" d="M0,14V13H20v1H0Z"/>
+  <path class="cls-1" d="M19,14h1V31H19V14Z"/>
+  <path class="cls-1" d="M20,31V30H59v1H20Z"/>
+  <path class="cls-1" d="M59,30h1V80H59V30Z"/>
+  <path class="cls-1" d="M60,45V44H80v1H60Z"/>
+  <path class="cls-1" d="M60,76V75H80v1H60Z"/>
+  <path class="cls-1" d="M19,9H18V0h1V9Z"/>
+  <path class="cls-1" d="M19,80H18V55h1V80Z"/>
+  <path class="cls-1" d="M19,55V54H59v1H19Z"/>
+  <path class="cls-1" d="M19,54v1H10V54h9Z"/>
+  <path class="cls-1" d="M9,45h1V55H9V45Z"/>
+  <path class="cls-1" d="M18,75v1H0V75H18Z"/>
+  <path class="cls-1" d="M80,9v1H70V9H80Z"/>
+  <path class="cls-1" d="M70,0h1V9H70V0Z"/>
+  <path class="cls-1" d="M71,80H70V76h1v4Z"/>
+  <image id="Shape_22" data-name="Shape 22" y="44" width="10" height="1" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAABAQMAAADdO609AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABlBMVEX//j8AAAAe7xTIAAAAAWJLR0QB/wIt3gAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+IEGQkVKEIY250AAAALSURBVAjXY2BgAAAAAwABINWUxwAAAABJRU5ErkJggg=="/>
+</svg>

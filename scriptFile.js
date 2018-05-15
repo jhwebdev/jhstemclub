@@ -57,3 +57,4 @@ function Music()
 	
 	number[0] = one;
 }*/
+

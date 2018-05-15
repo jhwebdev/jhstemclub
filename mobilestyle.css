@@ -3,7 +3,9 @@
 	display; block
 	}*/
 	
+	
 	.maintexts {
+	padding-left: 0;
 	display: grid;
 	grid-template-columns:
 		10% 50% 20% 20%;
@@ -18,16 +20,17 @@
 		grid-area: maintextsleft;
 		font-size: 1vw;
 		white-space: nowrap;
-
 	}
-	/*.maintextsleft h1 {
-		padding-bottom: 310%;
-	}*/
+	.maintextsleft h1 {
+		padding-left: 8%;
+		word-wrap: initial;
+	}
 	.maintextsmiddle {
 		grid-area: maintextsmiddle;
 		float: left;
 		font-size: 2vw;
 		padding-bottom: 1%;
+		padding-right: 2px;
 	}
 	.maintextsmiddle p {
 		padding-bottom: 20%;
@@ -42,16 +45,13 @@
 	.maintextsright {
 		grid-area: maintextsright;
 	}
-		.dropdown {
+	.dropdown {
 		display: none;
-	}
-	embed {
-		
-		
 	}
 }
 
 @media only screen and (max-width: 480px) {
+	
 	#mainhead a{
 		font-size: 43pt;
 	}
@@ -99,6 +99,7 @@
 	#mascot {
 		width: 90%;
 	}
+	
 	
 	
 }

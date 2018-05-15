@@ -11,6 +11,24 @@ body {
 	font-family: Calibri;
 	background-color: rgb(14, 12, 86);
 }
+#stylish2 {
+	background-color: #0e0c56;
+	border: none;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1% 2% 1% 2%;
+	font-size: 1em;
+}
+#stylish1 {
+	background-color: #52a5f1;
+	border: 1px solid #fffd00;
+	color: #fffd00;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1% 2% 1% 2%;
+	font-size: 1em;
+}
 
 .container {
 	display: grid;
@@ -27,7 +45,7 @@ body {
 
 #mainhead { 
 	grid-area: mainhead;
-	background-image: url("headerbackground4Velvet.svg");
+	background-image: url("images/headerbackground4Velvet.svg");
 	/*background-color: rgb(83, 139, 242);*/
 	color: #fffe3f;
 	font-size: 70px;
@@ -74,13 +92,10 @@ body {
 	
 }
 
-
-
-
 .maintexts {
-	padding-left: 2%;
 	background-color: rgb(14, 12, 86);
 	color: white;
+	padding: 0;
 }
 .maintextsleft {
 	background-color: rgb(14, 12, 86);
@@ -102,6 +117,38 @@ body {
 .maintextsmiddle a:hover {
 	background-color: rgb(14, 81, 126);
 }
+.slideImage {
+	display: none;
+	z-index: 1;
+}
+.prev, .next {
+	position: relative;
+	top: 50%;
+	margin-top: -55%;
+	z-index: 2;
+	width: 50%;
+	padding-top: 49%;
+	opacity: 0;
+}
+
+.prev {
+	float: left;
+}
+.next {
+	float: right;
+}
+
+.gallery {
+	position: relative;
+	width: 160%;
+}
+
+.gallery img {
+	width: 100%;
+}
+.maintextsmiddle img {
+	width: 150%;
+}
 .maintexts a {
 	display: block;
 }
@@ -112,6 +159,9 @@ body {
 	width: 16vw;
 	height: 16vw;
 
+}
+#comments {
+	width: 100%;	
 }
 
 #search input {

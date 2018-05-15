@@ -19,9 +19,9 @@
 			<!--<source id="velvet" src="poemForEveryonesSould.mp3" type="audio/mpeg">-->
 		</audio>
 		<button id="stylish2">Velvet Room</button>
-		<button id="music2">Velvet Music</button>
+		<!--<button id="music2">Velvet Music</button>-->
 		<button id="stylish1">Regular Style</button>
-		<button id="music1">Regular Music</button>
+		<!--<button id="music1">Regular Music</button>-->
 
 		<!--<input id="myInput" type="text">-->
 	</div>
@@ -36,7 +36,7 @@
 		</div>
 		-->
 		<div class="navbar">	
-			<a href="home.html">Home</a>
+			<a href="index.html">Home</a>
 			<a href="https://www.reddit.com/">News</a>
 			<a href="https://ca.answers.yahoo.com/">S.T.E.M.</a>
 			<a href="about.html">About</a>
@@ -64,9 +64,19 @@
 				
 
 				<div class="maintextsright">
-					<img id="sidePhoto" src="clawbot.jpg" alt="workStationPic.jpg">
-					<h3>Comments</h3>
-					<textarea rows="4" cols="24%">Enter text here...</textarea>
+					<img id="sidePhoto" src="images/banana man.gif" alt="workStationPic.jpg">
+					
+					<form action="comments.php" method="get" target="_self">
+						<fieldset>
+							<legend>Comments</legend>
+							
+							<label for="comments">Maximum characters: 200</label>
+							<br>
+							<input type="text" id="comments" name="inputComment" maxlength="200">
+							
+							<input type="submit" value="Submit">
+						</fieldset>
+					</form>
 				</div>
 				
 				<div id="sidebar">
@@ -79,7 +89,7 @@
 					</div>
 				
 					<div>
-						<a href="https://youtu.be/dQw4w9WgXcQ"><img id="mascot" src="stem mascot.svg"></a>
+						<a href="https://youtu.be/dQw4w9WgXcQ"><img id="mascot" src="images/stem mascot.svg"></a>
 					</div>
 				</div>
 				

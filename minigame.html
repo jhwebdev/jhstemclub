@@ -13,7 +13,7 @@
 	<script src="scriptFile.js"></script>
 	
 	<div class="buttons">
-		<audio id="Songs" controls  loop>
+		<audio id="Songs" controls loop>
 			<source src="whenTheMoonsReachingStars.mp3" type="audio/mpeg">
 			<!--<source id="velvet" src="poemForEveryonesSould.mp3" type="audio/mpeg">-->
 		</audio>
@@ -31,7 +31,7 @@
 
 		
 		<div class="navbar">	
-			<a href="home.html">Home</a>
+			<a href="index.html">Home</a>
 			<a href="https://www.reddit.com/">News</a>
 			<a href="https://ca.answers.yahoo.com/">S.T.E.M.</a>
 			<a href="about.html">About</a>
@@ -45,15 +45,29 @@
 		</div>
 		
 			<div class="maintexts">
-			
-				<div class="maintextsleft"></div>
-					<h1><button>High there</button></h1>
-				<div class="maintextsmiddle"></div>
-					<p><embed src="http://surviv.io/">Hello</p>
+				
+				
+				<div class="maintextsleft">
+					<embed id="game" src="http://surviv.io/" width="750" height="100%">
+				</div>
+					
+				<div class="maintextsmiddle">
+					<p style="padding-bottom: 100%;"></p>
+				</div>
+					
 				<div class="maintextsright">
-					<img id="pic" src="clawbot.jpg">
-					<h3>Comments</h3>
-					<textarea rows="4" cols="24%">Enter text here...</textarea>
+					<img id="pic" src="images/clawbot.jpg">
+					<form action="comments.php" method="get" target="_self">
+						<fieldset>
+							<legend>Comments</legend>
+							
+							<label for="comments">Maximum characters: 200</label>
+							<br>
+							<input type="text" id="comments" name="inputComment" maxlength="200">
+							
+							<input type="submit" value="Submit">
+						</fieldset>
+					</form>
 				</div>
 				
 				<div id="sidebar">
@@ -66,7 +80,7 @@
 				</div>
 				
 				<div>
-					<a href="https://youtu.be/dQw4w9WgXcQ"><img id="mascot" src="stem mascot.svg"></a>
+					<a href="https://youtu.be/dQw4w9WgXcQ"><img id="mascot" src="images/stem mascot.svg"></a>
 				</div>
 			</div>
 				
