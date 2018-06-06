@@ -1,6 +1,6 @@
 * {
 	box-sizing:
-		border-box;
+		border-box;;
 }
 
 /*audio {
@@ -8,10 +8,15 @@
 }*/
 
 body {
-	background-color: #52a5f1;
+	background-color: rgb(254, 232, 35);
 	font-family: Calibri;
 }
 
+.bodyBackImage {
+	background: url("images/main background golden.svg");
+	background-repeat: repeat-y;
+	width: 100%;
+}
 .container {
 	display: grid;
 	grid-template-columns: 100%;
@@ -20,7 +25,7 @@ body {
 		'mainhead'
 		'navbar'
 		'textsearch'
-		'mainbody'/*was mainstyle*/
+		'mainbody'
 		;
 	justify-content: center;
 }
@@ -40,15 +45,16 @@ body {
 }
 #mainhead a {
 	text-decoration:none;
-	color: #fffe3f;
-	background-color: #52a5f1;
+	color: white;
+	/*background-color: #52a5f1;
 	padding-right: 10px;
-	padding-left: 10px;
+	padding-left: 10px;*/
+	-webkit-text-stroke: 2px black;
 }
 
 .navbar {
 	grid-area: navbar;
-	background-color: white;
+	background-color: rgb(254, 241, 129);
 }
 .navbar a {
 	padding: 1% 5% 1% 5%;
@@ -73,19 +79,32 @@ body {
 	
 }
 
+
 .maintexts {
 	padding-left: 2%;
-	background-color: white;
-	height: 100%;
+	background-color: rgb(254, 232, 35);
+	height: 100vh;/*entire length of page*/
 }
 
 .maintextsleft {
+	background-image: url("images/main background golden.svg");
+	background-size: 100%;
+	background-position: 0 100px;
+	color: black;
 	z-index: 2;
+}
+
+.maintextsleft span{
+	background-color: rgb(254, 232, 35);
 }
 
 .maintextsmiddle {
 	display: block;
-	background-color: white;
+	background-color: rgb(254, 232, 35);
+}
+
+.maintextsright {
+	background-color: rgb(254, 232, 35);
 }
 
 .maintextsmiddle a {
@@ -143,7 +162,7 @@ body {
 
 #sidebar {
 	grid-area: sidebar;
-	background-color: white;
+	background-color: rgb(254, 232, 35);
 	width: 100%;
 	height: auto;
 }

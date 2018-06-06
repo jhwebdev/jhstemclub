@@ -9,6 +9,11 @@ function swapStyle(sheet)
 	document.getElementById('mainstyle').setAttribute('href', sheet);
 }
 
+function swapLink(link)
+{
+	document.getElementById('imageButton').setAttribute('href'. link);
+}
+
 //tried reacreating swapStyle function but for music
 function swapMusic(music, type)
 {
@@ -20,8 +25,9 @@ var audio = document.getElementById('Songs');
 
 function styles() 
 {
-	var style1 = document.getElementById('stylish1');
-	var style2 = document.getElementById('stylish2');
+	/*var style1 = document.getElementById('stylish1');
+	var style2 = document.getElementById('stylish2');*/
+	//var style3 = document.getElementById('stylish3');
 	var music1 = document.getElementById('music1');
 	var music2 = document.getElementById('music2');
 	
@@ -39,6 +45,10 @@ function styles()
 			swapMusic('poemForEveryonesSouls.mp3');
 			//swapMobile('velvetMobileStyle.css');
 		}
+	stylish3.onclick =
+		function() {
+			swapStyle('goldenMainStyle.css');
+		}
 	/*music1.onclick =
 		function () {
 			swapMusic('whenTheMoonsReachingStars.mp3');
@@ -49,12 +59,19 @@ function styles()
 		}*/
 }
 
-/*var zero: "whenTheMoonsReachingStars.mp3";
+var imageButton
 
-function Music()
-{
-	number = new Audio[1];
+function randomLink() {
+	var animeLinks = ["https://www.youtube.com/watch?v=x-GxU6yM9FA", "https://www.youtube.com/watch?v=q3f5UeqAAcg", "https://www.youtube.com/watch?v=VHyzxD9yzvk", "https://www.ampproject.org/docs/getting_started/create/presentation_layout", "https://www.edmodo.com/home#/"];
 	
-	number[0] = one;
-}*/
+	imageButton.onclick =
+		function() {
+			swapLink([Math.round(Math.random())*(animeLinks.length-1)]);
+		}
+}
+
+
+	
+	
+	
 

@@ -1,9 +1,11 @@
 url: jhstemclub
 
 TO DO:
--add picture gallery (modals?)
-	-array for images(?)
 -php form submissions
+-image page media grid
+	-click on image
+	-random video
+-turn image gallery into an array
 
 27-02-18 "home" is the latest iteration.
 
@@ -44,3 +46,21 @@ TO DO:
 11-05-18 -fixed postitioning of gallery elements in images
 	 -fixed displaying of image
 	 - (in both styles)
+15-05-18 -website updated jhwebdev.github.io/jhstemclub
+23-05-18 -fixed images mobile style
+	 -fixed images slideshow buttons
+	 -fixed font sizes(changed to vw's)
+	 -moved some code around in all style sheets
+	 -added new golden button for style
+		-used <span> to style text
+		-added button image background
+25-05-18 -created new golden style
+	 -new svg background image
+	 -fixed triple style
+29-05-18 -finished golden style
+30-05-18 -addded video links box on 'other clubs'
+01-06-18 -adding random link for 'other clubs'
+	 -added tab icon
+04-06-18 -added custom cursors
+05-06-18 -fixed style switching
+	 -finished custom cursors for 'otherclubs'

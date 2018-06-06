@@ -10,6 +10,7 @@
 </head>
 
 <body onclick="styles()">
+
 	<script src="scriptFile.js"></script>
 	
 	<div class="buttons">
@@ -24,15 +25,15 @@
 
 		<!--<input id="myInput" type="text">-->
 	</div>
-	
+
 	<div class="container">
 		<h1 id="mainhead">
 			<a href="https://youtu.be/LatorN4P9aA">STEM Club</a>
 		</h1>
 			
-		<!--<div class="dropdown">
+		<div class="dropdown">
 				<button class="dropbutton">Menu<i class="whatisthisfor"></i></button>
-		</div>-->
+		</div>
 		
 		<div class="navbar">	
 			<a href="index.html">Home</a>
@@ -40,8 +41,6 @@
 			<a href="https://ca.answers.yahoo.com/">S.T.E.M.</a>
 			<a href="about.html">About</a>
 			<a href="otherclubs.html">Other Clubs</a>
-			<a href="images.html">Images</a>
-			<a href="minigame.html">Minigame</a>
 		</div>
 		
 		<div id="search">
@@ -54,39 +53,31 @@
 				
 				<div class="maintextsleft"><h1></h1></div>
 
-				<div class="maintextsmiddle"></div>
+				<div class="maintextsmiddle">
+					<p><button onclick="storyGenerate()">Generate</button></p>
+				</div>
 
 				<div class="maintextsright">
-					<img id="sidePhoto" src="images/banana man.gif" alt="workStationPic.jpg">
-					
-					<fieldset>
-						<legend>Comments</legend>
-							
-							<label for="comments">Maximum characters: 200</label>
-							<br>
-							<input type="text" id="comments" name="inputComment" maxlength="200">
-							
-							<input type="submit" value="Submit">
-					</fieldset>
-					
-					<div id="sidebar">
-						<div class="links">
-							<h2>Helpful links</h2>
-							<a href="http://www.cemc.uwaterloo.ca/contests/past_contests.html">Waterloo Mathematics</a>
-							<a href="https://www.vexrobotics.com/">VEX Robotics</a>
-							<a href="http://www.spacex.com/">SpaceX website</a>
-							<a href="#">SCP Foundation</a>
-						</div>
-						
-						<div>
-							<a href="https://youtu.be/dQw4w9WgXcQ"><img id="mascot" src="images/stem mascot.svg"></a>
-						</div>
-					</div>
+					<img id="pic" src="clawbot.jpg">
+					<h3>Comments</h3>
+					<textarea rows="4" cols="24%">Enter text here...</textarea>
 				</div>
 				
 			</div>
 			
-			
+			<div id="sidebar">
+				<div class="links">
+					<h2>Helpful links</h2>
+					<a href="http://www.cemc.uwaterloo.ca/contests/past_contests.html">Waterloo Mathematics</a>
+					<a href="https://www.vexrobotics.com/">VEX Robotics</a>
+					<a href="http://www.spacex.com/">SpaceX website</a>
+					<a href="#">SCP Foundation</a>
+				</div>
+				
+				<div>
+					<a href="https://youtu.be/dQw4w9WgXcQ"><img id="mascot" src="stem mascot.svg"></a>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

@@ -5,7 +5,18 @@
 	<title>STEM</title>
 	<link id="mainstyle" rel="stylesheet" href="mainstyle.css">
 	<link id="mobilestyle" rel="stylesheet" href="mobilestyle.css">
+	<!---<link rel="icon" href="images/icon.png">-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<style>
+	@media only screen and (min-width:480px)
+	{
+		#sidebar {
+			padding-top: 280%;
+		}
+	}
+	
+	</style>
 	
 </head>
 
@@ -17,6 +28,7 @@
 			<source id="songs" src="whenTheMoonsReachingStars.mp3" type="audio/mpeg">
 			<!--<source id="velvet" src="poemForEveryonesSould.mp3" type="audio/mpeg">-->
 		</audio>
+		<button id="stylish3"><span>Golden Days</span></button>
 		<button id="stylish2">Velvet Room</button>
 		<button id="stylish1">Regular Style</button>
 	</div>
@@ -48,9 +60,7 @@
 				<div class="maintextsleft">
 					<h1>VEX Robotics Competition 2018</h1>
 				</div>
-				
-
-				
+					
 				<div class="maintextsmiddle">
 					
 					<h1>In the Zone</h1>
@@ -137,7 +147,6 @@
 						</div>
 						
 						
-						
 						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 						<a class="next" onclick="plusSlides(1)">&#10095;</a>
 							
@@ -150,7 +159,7 @@
 							
 							<label for="comments">Maximum characters: 200</label>
 							<br>
-							<input type="text" id="comments" name="inputComment" maxlength="200">
+							<input type="text" name="inputComment" maxlength="200">
 							
 							<input type="submit" value="Submit">
 						</fieldset>
@@ -161,8 +170,10 @@
 				
 				
 			</div>
+			
+			<div class="maintextsright"></div>
 
-			<div id="sidebar" style="padding-top: 295%;">
+			<div id="sidebar">
 					<div class="links">
 						<h2>Helpful links</h2>
 						<a href="http://www.cemc.uwaterloo.ca/contests/past_contests.html">Waterloo Mathematics</a>

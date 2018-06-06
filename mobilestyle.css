@@ -1,3 +1,79 @@
+* {
+	/*user-select:none;*/
+}
+body {
+	/*cursor: url('images/mobile-suit-gundam-filled.png'), auto;*/
+}
+
+
+.buttons button {
+		border: none;
+		text-decoration: none;
+		display: inline-block;
+		padding: 1% 2% 1% 2%;
+		font-size: 1em;
+		 
+	}
+	#stylish3 {
+		background: url("images/goldenback.jpg");
+		border: none;
+		color: black;
+	}
+	#stylish3 span {
+		background-color: #fde722;
+	}
+	#stylish2 {
+		background-color: #0e0c56;
+		border: none;
+		color: white;
+	}
+	#stylish1 {
+		background-color: #52a5f1;
+		border: 1px solid #fffd00;
+		color: #fffd00;
+	}
+	.mediaGrid {
+		width: 100%;
+		height: 50vh;
+		display: grid;
+		grid-template-columns: 
+			1fr 1fr;
+		grid-template-rows:
+			auto;
+		grid-template-areas:
+			'content content';
+	}
+	#anime {
+		background-image: url("images/kizunaiDesu.jpg");
+	}
+	#anime a {
+		cursor: url("images/mobile-suit-gundam-filled.png"), auto;
+	}
+	#munday {
+		background-image: url("images/un.jpg");	
+	}
+	#munday a {
+		cursor: url("images/mun-icon.png"), auto;
+	}
+	#wyns {
+		background-image: url("images/steveHarvey.jpg");
+	}
+	#wyns a {
+		cursor: url("images/steveHarveyIcon.png"), auto;
+	}
+	#cheese {
+		background-image: url("images/chess.png");
+	}
+	#cheese a {
+		cursor: url("images/deepBlue.png"), auto;
+	}
+	.imageButton a {
+		height: 100%;
+	}
+	.imageButton a:hover {
+		background-color: rgb(0,0,0,0);
+	}
+	
 @media only screen and (min-width: 480px) {	
 	/*.mainbody {
 	display; block
@@ -14,6 +90,7 @@
 		'maintextsleft maintextsmiddle maintextsright sidebar';/*moved sidebar under maintexts*/
 
 	background-color: white;
+	height: 100vh;
 	}
 	
 	.maintextsleft{
@@ -29,11 +106,9 @@
 		grid-area: maintextsmiddle;
 		float: left;
 		font-size: 2vw;
-		padding-bottom: 1%;
 		padding-right: 2px;
 	}
 	.maintextsmiddle p {
-		padding-bottom: 20%;
 	}
 	.maintexts a {
 		display: block;
@@ -48,12 +123,59 @@
 	.dropdown {
 		display: none;
 	}
+	.gallery {
+		width: 160%;
+	}
+	.prev, .next {
+		position: relative;
+		margin-top: -57%;
+		z-index: 2;
+		width: 50%;
+		padding-bottom: 53%;
+	}
+	.next {
+		float: right;
+	}
+	.content {
+		width: 100%;
+		height:  100%;
+	}
 }
 
 @media only screen and (max-width: 480px) {
+	.mainstexts {
+		height: 100%;
+	}
+	#stylish2 {
+		background-color: #0e0c56;
+		border: none;
+		color: white;
+		text-decoration: none;
+		display: inline-block;
+		padding: 1% 2% 1% 2%;
+		font-size: 1em;
+	}
+	#stylish1 {
+		background-color: #52a5f1;
+		border: 1px solid #fffd00;
+		color: #fffd00;
+		text-decoration: none;
+		display: inline-block;
+		padding: 1% 2% 1% 2%;
+		font-size: 1em;
+	}
+	.prev, .next {
+		position: relative;
+		margin-top: -56%;
+		padding-bottom: 49%;
+		width: 50%;
+	}
+	.next {
+		float: right;
+	}
 	
 	#mainhead a{
-		font-size: 43pt;
+		font-size: 19vw;
 	}
 	.music {
 		display: flex;
@@ -63,23 +185,23 @@
 	.navbar a {
 		display: flex;
 		flex-flow: column nowrap;
-		font-size: 20px;
+		font-size: 7vw;
 		padding: 1% 7% 1% 7%;
 	}
 	#search input {
-		margin-top: 2px;
-		border-radius: 20px;
+		margin-top: 1%;
+		border-radius: 0;
 		align-content: center;
-		height: 35px;
+		height: 10vw;
 	}
 	.maintexts {
 		float: left;	
 	}
 	.maintexts h1 {
-		font-size: 20pt;
+		font-size: 9vw;
 	}
 	.maintexts p, h2, h4 {
-		font-size: 15pt;
+		font-size: 6vw;
 		display: block;
 	}
 	.maintexts img {
@@ -92,16 +214,19 @@
 		width: 100%;
 	}
 	.links a {
-		font-size: 13px;
-		padding-top: 6%;
-		padding-bottom: 6%;
+		font-size: 6vw;
+		padding-top: 3%;
+		padding-bottom: 3%;
 	}
 	#mascot {
 		width: 90%;
 	}
-	
-	
-	
+	.gallery {
+		width: 98%;
+	}
+	.gallery img {
+		width: 100%;
+	}
 }
 
 /*@media only screen and (max-width: 600px) {

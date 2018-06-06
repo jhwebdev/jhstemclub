@@ -5,24 +5,27 @@
 	<title>STEM</title>	
 	<link id="mainstyle" rel="stylesheet" href="mainstyle.css">
 	<link id="mobilestyle" rel="stylesheet" href="mobilestyle.css">
-	
+	<!---<link rel="icon" href="images/icon.png">-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	
 </head>
 
 <body onclick="styles()">
+
+	<div class="bodyBackImage"></div>
+
 	<script src="scriptFile.js"></script>
 	
 	<div class="buttons">
-		<audio id="Songs" controls  loop>
+		<audio id="Songs" controls loop>
 			<source src="whenTheMoonsReachingStars.mp3" type="audio/mpeg">
 			<!--<source id="velvet" src="poemForEveryonesSould.mp3" type="audio/mpeg">-->
 		</audio>
+		<button id="stylish3"><span>Golden Days</span></button>
 		<button id="stylish2">Velvet Room</button>
-		<!--<button id="music2">Velvet Music</button>-->
 		<button id="stylish1">Regular Style</button>
+		<!--<button id="music2">Velvet Music</button>-->
 		<!--<button id="music1">Regular Music</button>-->
-
 		<!--<input id="myInput" type="text">-->
 	</div>
 	
@@ -30,6 +33,7 @@
 		<h1 id="mainhead">
 			<a href="https://youtu.be/LatorN4P9aA">STEM Club</a>
 		</h1>
+		
 		<!--
 		<div class="dropdown">
 			<button class="dropbutton">Menu<i class="whatisthisfor"></i></button>
@@ -53,7 +57,7 @@
 			<div class="maintexts">
 			
 				<div class="maintextsleft">
-					<h1>Welcome!</h1>
+					<span><h1>Welcome!</h1></span>
 				</div>
 				
 				<div class="maintextsmiddle">
@@ -72,7 +76,7 @@
 							
 							<label for="comments">Maximum characters: 200</label>
 							<br>
-							<input type="text" id="comments" name="inputComment" maxlength="200">
+							<input type="text" id="comments" name="inputComment" maxlength="200" required>
 							
 							<input type="submit" value="Submit">
 						</fieldset>
@@ -91,6 +95,8 @@
 					<div>
 						<a href="https://youtu.be/dQw4w9WgXcQ"><img id="mascot" src="images/stem mascot.svg"></a>
 					</div>
+					
+					<!--<iframe src="index.html">-->
 				</div>
 				
 			</div>

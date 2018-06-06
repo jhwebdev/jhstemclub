@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" viewBox="0 0 320 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fee823;
+      }
+
+      .cls-2 {
+        fill: #c4dc02;
+      }
+
+      .cls-3 {
+        fill: #bf0e04;
+      }
+
+      .cls-4 {
+        fill: #fda800;
+      }
+
+      .cls-5 {
+        fill: #fdfec2;
+      }
+
+      .cls-6 {
+        fill: #0da3bc;
+      }
+    </style>
+  </defs>
+  <image id="yellow_back" data-name="yellow back" width="320" height="320" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAFAAQMAAAD3XjfpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABlBMVEX+6CMAAAAg3E1oAAAAAWJLR0QB/wIt3gAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+IFGQ0MCjYRsg0AAAAjSURBVGje7cEBDQAAAMKg909tDwcUAAAAAAAAAAAAAAAA/BozQAABudsxYAAAAABJRU5ErkJggg=="/>
+  <rect class="cls-1" x="150" width="85" height="320"/>
+  <rect id="green_left" data-name="green left" class="cls-2" width="45" height="320"/>
+  <rect id="red_left" data-name="red left" class="cls-3" x="45" width="15" height="320"/>
+  <rect id="orange_left" data-name="orange left" class="cls-4" x="60" width="30" height="320"/>
+  <rect id="off_white_left" data-name="off white left" class="cls-5" x="90" width="15" height="320"/>
+  <rect id="off_white_middle" data-name="off white middle" class="cls-5" x="235" width="20" height="320"/>
+  <rect id="orange_middle" data-name="orange middle" class="cls-4" x="105" width="45" height="320"/>
+  <rect id="blue_right" data-name="blue right" class="cls-6" x="255" width="30" height="320"/>
+  <rect id="off_white_right" data-name="off white right" class="cls-5" x="285" width="10" height="320"/>
+  <rect id="blue_right_most" data-name="blue right most" class="cls-6" x="295" width="20" height="320"/>
+</svg>

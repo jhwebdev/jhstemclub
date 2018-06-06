@@ -11,9 +11,12 @@ function currentSlide(n) {
 	showSlides(slideIndex = n);
 }
 
+
+
 function showSlides(n) {
 	var i;
 	var slides = document.getElementsByClassName("slideImage");
+	//var slides = ["images/IMG_20180406_174904476_HDR.jpg", "images/IMG_20180406_174908992.jpg"];
 	var dots = document.getElementsByClassName("dot");
 	if (n > slides.length) 
 		{slideIndex = 1}
